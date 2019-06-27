@@ -22,7 +22,9 @@
     </div>
 </div>
 @include('includes.header')
+
 @yield('content')
+
 @include('includes.footer')
 @include('includes.foot')
 </body>

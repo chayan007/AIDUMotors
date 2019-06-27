@@ -1,11 +1,20 @@
 <!------ Footer Section Start ------>
-<div class="impl_footer_wrapper impl_home_footer">
+<div class="impl_footer_wrapper">
+    <div class="impl_social_wrapper">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
     <div class="impl_foo_wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="impl_foo_box footer_abt_text">
-                        <h1 class="impl_foo_title">contact us</h1>
+                        <a href="#"><img src="images/logo.png" alt=""></a>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable by injected humour.</p>
                     </div>
                 </div>
@@ -37,7 +46,7 @@
                             <li>
                                 <div class="impl_foo_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                                 <div class="impl_foo_text">
-                                    <p>514 S. Magnolia St.<br>  Orlando , US</p>
+                                    <p>514 S. Magnolia St. <br> Orlando , US</p>
                                 </div>
                             </li>
                             <li>
@@ -62,25 +71,14 @@
                 </div>
             </div>
         </div>
-        <div class="impl_social_wrapper">
-            <ul>
-                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            </ul>
-        </div>
-        <div class="impl_btm_footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <p class="impl_copyright">Copyright &copy; 2019 Aidu Motors, Aizawl. Developed by <a href="http://www.thediscretelabs.com" style="font-weight: bolder">The Discrete Labs</a></p>
-                    </div>
-                </div>
+    </div>
+</div>
+<!----Bottom Footer Start---->
+<div class="impl_btm_footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <p class="impl_copyright">Copyright &copy; 2018 Impel Car Dealers. All Rights Reserved</p>
             </div>
         </div>
     </div>

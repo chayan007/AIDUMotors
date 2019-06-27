@@ -227,6 +227,57 @@
             </div>
         </div>
     </div>
+    <!------ Counter Section Start ------>
+    <div class="impl_counter_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="impl_cont_box">
+                        <div class="impl_count_img">
+                            <img src="images/svg/count_car.svg" alt="" />
+                        </div>
+                        <div class="impl_count_text">
+                            <h1 class="count-no" data-to="8210" data-speed="10000">8210</h1>
+                            <p>Cars in stock</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="impl_cont_box">
+                        <div class="impl_count_img">
+                            <img src="images/svg/trophy.svg" alt="" />
+                        </div>
+                        <div class="impl_count_text">
+                            <h1 class="count-no" data-to="686" data-speed="10000">686</h1>
+                            <p>awards</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="impl_cont_box">
+                        <div class="impl_count_img">
+                            <img src="images/svg/user.svg" alt="" />
+                        </div>
+                        <div class="impl_count_text">
+                            <h1 class="count-no" data-to="6281" data-speed="10000">6281</h1>
+                            <p>customers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="impl_cont_box">
+                        <div class="impl_count_img">
+                            <img src="images/svg/count_car1.svg" alt="" />
+                        </div>
+                        <div class="impl_count_text">
+                            <h1 class="count-no" data-to="4100" data-speed="10000">4100</h1>
+                            <p>Cars Repaired</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!------ Featured Cars Start ------>
     <div class="impl_featured_wrappar">
         <div class="container">
@@ -388,55 +439,6 @@
             </div>
         </div>
     </div>
-    <!------ Counter Section Start ------>
-    <div class="impl_counter_wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="impl_cont_box">
-                        <div class="impl_count_img">
-                            <img src="images/svg/count_car.svg" alt="" />
-                        </div>
-                        <div class="impl_count_text">
-                            <h1 class="count-no" data-to="8210" data-speed="10000">8210</h1>
-                            <p>Cars in stock</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="impl_cont_box">
-                        <div class="impl_count_img">
-                            <img src="images/svg/trophy.svg" alt="" />
-                        </div>
-                        <div class="impl_count_text">
-                            <h1 class="count-no" data-to="686" data-speed="10000">686</h1>
-                            <p>awards</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="impl_cont_box">
-                        <div class="impl_count_img">
-                            <img src="images/svg/user.svg" alt="" />
-                        </div>
-                        <div class="impl_count_text">
-                            <h1 class="count-no" data-to="6281" data-speed="10000">6281</h1>
-                            <p>customers</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="impl_cont_box">
-                        <div class="impl_count_img">
-                            <img src="images/svg/count_car1.svg" alt="" />
-                        </div>
-                        <div class="impl_count_text">
-                            <h1 class="count-no" data-to="4100" data-speed="10000">4100</h1>
-                            <p>Cars Repaired</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
 @endsection
