@@ -662,23 +662,7 @@
         </div>
     </div>
 </div>
-<!---- Go To Top---->
-<span class="gotop"><img src="images/goto.png" alt=""></span>
-<!--Main js file Style-->
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/popper.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
-<script type="text/javascript" src="js/appear.min.js"></script>
-<script type="text/javascript" src="js/tweenmax.js"></script>
-<!--Plugin Js-->
-<script type="text/javascript" src="js/plugin/magnific/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" src="js/plugin/slick/slick.min.js"></script>
-<script type="text/javascript" src="js/plugin/counter/jquery.countTo.js"></script>
-<script type="text/javascript" src="js/plugin/nice_select/jquery.nice-select.min.js"></script>
-<script type="text/javascript" src="js/tweenmax.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-<!--Main js file End-->
+@include('includes.foot')
 </body>
 
 </html>
