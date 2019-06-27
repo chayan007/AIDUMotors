@@ -77,9 +77,6 @@
                                     <option value="b3">Type 3</option>
                                     <option value="b4">Type 4</option>
                                 </select>
-                                <div class="price_range">
-                                    <label>price range</label> <input type="text" id="range_24" name="ionRangeSlider" value="" />
-                                </div>
                                 <div class="impl_search_btn">
                                     <button class="impl_btn">search vehicle</button>
                                 </div>
@@ -98,6 +95,22 @@
                                             </div>
                                             <div class="impl_ser_text_ovrly">
                                                 <img src="images/svg/key.svg" alt="key" />
+                                                <h3>purchase</h3>
+                                                <p>At vero eos et accusamus etiusto odio dignissimos ducimus qui blanditiis.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="impl_facility_wrapper">
+                                        <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                        <div class="impl_ser_hover_ovrly">
+                                            <div class="impl_ser_text">
+                                                <img src="images/svg/doller.svg" alt="doller" />
+                                                <h3>benefits</h3>
+                                            </div>
+                                            <div class="impl_ser_text_ovrly">
+                                                <img src="images/svg/doller.svg" alt="doller" />
                                                 <h3>benefits</h3>
                                                 <p>At vero eos et accusamus etiusto odio dignissimos ducimus qui blanditiis.</p>
                                             </div>
@@ -109,12 +122,12 @@
                                         <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
                                         <div class="impl_ser_hover_ovrly">
                                             <div class="impl_ser_text">
-                                                <img src="images/svg/doller.svg" alt="doller" />
+                                                <img src="images/svg/car.svg" alt="car" />
                                                 <h3>services</h3>
                                             </div>
                                             <div class="impl_ser_text_ovrly">
-                                                <img src="images/svg/doller.svg" alt="doller" />
-                                                <h3>purchase</h3>
+                                                <img src="images/svg/car.svg" alt="car" />
+                                                <h3>services</h3>
                                                 <p>At vero eos et accusamus etiusto odio dignissimos ducimus qui blanditiis.</p>
                                             </div>
                                         </div>
@@ -125,28 +138,12 @@
                                         <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
                                         <div class="impl_ser_hover_ovrly">
                                             <div class="impl_ser_text">
-                                                <img src="images/svg/car.svg" alt="car" />
+                                                <img src="images/svg/insurance_car.svg" alt="car" />
                                                 <h3>modify</h3>
                                             </div>
                                             <div class="impl_ser_text_ovrly">
-                                                <img src="images/svg/car.svg" alt="car" />
-                                                <h3>purchase</h3>
-                                                <p>At vero eos et accusamus etiusto odio dignissimos ducimus qui blanditiis.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="impl_facility_wrapper">
-                                        <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
-                                        <div class="impl_ser_hover_ovrly">
-                                            <div class="impl_ser_text">
                                                 <img src="images/svg/insurance_car.svg" alt="car" />
-                                                <h3>purchase</h3>
-                                            </div>
-                                            <div class="impl_ser_text_ovrly">
-                                                <img src="images/svg/insurance_car.svg" alt="car" />
-                                                <h3>purchase</h3>
+                                                <h3>modify</h3>
                                                 <p>At vero eos et accusamus etiusto odio dignissimos ducimus qui blanditiis.</p>
                                             </div>
                                         </div>
@@ -164,7 +161,7 @@
         <div class="impl_service_video">
             <div class="impl_video_inner">
                 <div class="impl_servdo_video">
-                    <span class="impl_play_icon"><a class="impl-popup-youtube" href="https://www.youtube.com/watch?v=BqjuObIH1nY"><i class="fa fa-play" aria-hidden="true"></i></a></span>
+                    <span class="impl_play_icon"><a class="impl-popup-youtube" href="https://www.youtube.com/watch?v=QXZ9dxbylZQ"><i class="fa fa-play" aria-hidden="true"></i></a></span>
                 </div>
             </div>
         </div>
