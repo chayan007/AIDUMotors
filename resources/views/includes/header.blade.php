@@ -41,7 +41,12 @@
                                 </div>
                                 <ul>
                                     <li><a href="/">Home</a></li>
-                                    <li><a href="/about">Company</a></li>
+                                    <li class="dropdown"><a href="javascript:;">Company</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="/about">About Us</a></li>
+                                            <li><a href="/team">Our Team</a></li>
+                                        </ul>
+                                    </li>
                                     <li class="dropdown"><a href="javascript:;">Purchase</a>
                                         <ul class="sub-menu">
                                             <li><a href="/cars">Car</a></li>

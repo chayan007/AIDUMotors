@@ -52,8 +52,8 @@
                             <li>
                                 <div class="impl_foo_icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                                 <div class="impl_foo_text">
-                                    <a href="#">dummymail@mail.com</a>
-                                    <a href="#">yourmail@mail.com</a>
+                                    <a href="#">dummymail@aidumotors.com</a>
+                                    <a href="#">yourmail@aidumotors.com</a>
                                 </div>
                             </li>
                         </ul>
