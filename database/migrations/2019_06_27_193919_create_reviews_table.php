@@ -15,6 +15,10 @@ class CreateReviewsTable extends Migration
     {
         Schema::create('reviews', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
+            $table->string('image_path')->nullable();
+            $table->string('video_path')->nullable();
+            $table->string('comment')->nullable();
             $table->timestamps();
         });
     }
