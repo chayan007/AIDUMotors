@@ -15,6 +15,11 @@ class CreateCarsTable extends Migration
     {
         Schema::create('cars', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('model');
+            $table->string('transmission')->nullable();
+            $table->string('emi')->nullable();
+            $table->string('mileage')->nullable();
+            $table->string('base_price')->nullable();
             $table->timestamps();
         });
     }

@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
-                    <h1>company</h1>
+                    <h1>aidu motors</h1>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item active">company</li>
@@ -27,7 +27,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="impl_about_data">
                         <h2>A Bit About Us</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now. Use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized .</p>
+                        <p>Car buying is always everybody's dream and it is very special occasion, we as a premium Renault car dealership always endeavor to achieve highest level of customer satisfaction and improving the buying experience for our customers. Aidu Motors employs highly skilled professionals in all it's setups to give customers a great experience whether it is sales or service. There is a lot of focus on training manpower and equipping it's workshops with the latest equipment.
+                            It is our constant endeavour to give our customers several options for their desired choice.We are confident you will enjoy dealing with us. With the help of this website you can get most of the information anytime you want on any Renault products.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

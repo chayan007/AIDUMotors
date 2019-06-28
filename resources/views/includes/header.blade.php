@@ -53,10 +53,9 @@
                                     <li class="dropdown"><a href="javascript:;">Media & Events</a>
                                         <ul class="sub-menu">
                                             <li><a href="/media">Media Highlights</a></li>
-                                            <li><a href="/events">Events</a></li>
+                                            <li><a href="/events">Gallery</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="/gallery">Gallery</a></li>
                                     <li><a href="/reviews">Reviews</a></li>
                                     <li><a href="/contact">Contact us</a></li>
                                 </ul>
