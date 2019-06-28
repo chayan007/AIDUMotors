@@ -78,7 +78,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <p class="impl_copyright">Copyright &copy; 2018 Impel Car Dealers. All Rights Reserved</p>
+                <p class="impl_copyright">Copyright &copy; 2019 Aidu Motors. Developed by <a href="http://www.thediscretelabs.com" style="font-weight: bold">The Discrete Labs</a></p>
             </div>
         </div>
     </div>

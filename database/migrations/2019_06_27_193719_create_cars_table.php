@@ -22,6 +22,7 @@ class CreateCarsTable extends Migration
             $table->string('price')->nullable();
             $table->string('image_path')->nullable();
             $table->text('description')->nullable();
+            $table->integer('featured')->default(0);
             $table->timestamps();
         });
     }
