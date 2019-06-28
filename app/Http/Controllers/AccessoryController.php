@@ -9,7 +9,7 @@ use Mockery\Exception;
 class AccessoryController extends Controller
 {
     public function addOrUpdateAccessory(Request $request, $id){
-        $accessory = Accessory::where('id', $id)->first();
+        $accessory = Accessory::all()->where('id', $id)->first();
         if ($accessory == NULL){
             $accessory = new Accessory();
         }
@@ -26,7 +26,7 @@ class AccessoryController extends Controller
     }
 
     public function deleteAccessory($id){
-        $accessory = Accessory::where('id', $id)->firstOrFail();
+        $accessory = Accessory::all()->where('id', $id)->first();
         $accessory->delete();
         return view();
     }

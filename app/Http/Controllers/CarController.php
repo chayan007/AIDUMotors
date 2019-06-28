@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
 class CarController extends Controller
 {
     public function addOrUpdateCar(Request $request, $id){
-        $car = Car::where('id', $id)->first();
+        $car = Car::all()->where('id', $id)->first();
         if ($car == NULL)
         {
             $car = new Car();
@@ -38,13 +38,13 @@ class CarController extends Controller
     }
 
     public function deleteCar($id){
-        $car = Car::where('id', $id)->firstOrFail();
+        $car = Car::all()->where('id', $id)->first();
         $car->delete();
         return view();
     }
 
     public function featuredFunction($id){
-        $car = Car::where('id', $id)->firstOrFail();
+        $car = Car::all()->where('id', $id)->first();
         if ($car->featured == 1)
         {
             $car->featured = 0;
