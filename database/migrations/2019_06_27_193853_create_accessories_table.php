@@ -15,6 +15,9 @@ class CreateAccessoriesTable extends Migration
     {
         Schema::create('accessories', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
+            $table->text('description')->nullable();
+            $table->string('price')->nullable();
             $table->timestamps();
         });
     }

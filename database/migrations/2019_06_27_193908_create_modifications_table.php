@@ -15,6 +15,9 @@ class CreateModificationsTable extends Migration
     {
         Schema::create('modifications', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
+            $table->string('price')->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }
