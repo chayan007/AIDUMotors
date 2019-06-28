@@ -55,4 +55,8 @@ class CarController extends Controller
         $car->save();
         return view();
     }
+
+    public function searchController($model, $type){
+
+    }
 }

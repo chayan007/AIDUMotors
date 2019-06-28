@@ -18,11 +18,11 @@ class AccessoryController extends Controller
             $accessory->description = $request->description;
             $accessory->price = $request->price;
             $accessory->save();
+            return view();
         }
         catch (Exception $e){
             return view();
         }
-        return view();
     }
 
     public function deleteAccessory($id){
