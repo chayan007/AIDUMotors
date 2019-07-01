@@ -9,11 +9,11 @@
         <form action="" method="post" class="form">
             <div class="form-group">
                 <label for="exampleInputName2" class="pr-1  form-control-label">Name</label>
-                <input type="text" name="name" id="exampleInputName2" placeholder="{{ Auth::user()->name }}" class="form-control">
+                {{--<input type="text" name="name" id="exampleInputName2" placeholder="{{ Auth::user()->name }}" class="form-control">--}}
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail2" class="px-1  form-control-label">Email</label>
-                <input type="email" name="email" id="exampleInputEmail2" readonly="True" placeholder="{{ Auth::user()->email }}" class="form-control">
+                {{--<input type="email" name="email" id="exampleInputEmail2" readonly="True" placeholder="{{ Auth::user()->email }}" class="form-control">--}}
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail2" class="px-1  form-control-label">Password</label>

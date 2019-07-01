@@ -18,6 +18,7 @@ class CreateAccessoriesTable extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->string('price')->nullable();
+            $table->string('img_path')->nullable();
             $table->timestamps();
         });
     }

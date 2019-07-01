@@ -17,6 +17,10 @@ class AccessoryController extends Controller
             $accessory->name = $request->name;
             $accessory->description = $request->description;
             $accessory->price = $request->price;
+            if ($request->hasFile('img')){
+                $path = $request->file('img')->store('public');
+                $accessory->img_path = $path;
+            }
             $accessory->save();
             return view();
         }

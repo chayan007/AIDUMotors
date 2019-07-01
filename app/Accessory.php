@@ -13,5 +13,6 @@ class Accessory extends Model
         'name',
         'description',
         'price',
+        'img_path',
     ];
 }
