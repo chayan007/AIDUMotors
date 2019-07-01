@@ -14,17 +14,14 @@
                 <li class="active">
                     <a href="/user"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                 </li>
-                <h3 class="menu-title">Cars</h3><!-- /.menu-title -->
+                <h3 class="menu-title">Business Items</h3><!-- /.menu-title -->
                 <li class="menu-item-has-children dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Products</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Cars</a>
                     <ul class="sub-menu children dropdown-menu">
                         <li><i class="fa fa-id-badge"></i><a href="/addProduct">Add</a></li>
                         <li><i class="fa fa-exclamation-triangle"></i><a href="/product">Delete</a></li>
                     </ul>
                 </li>
-
-                <h3 class="menu-title">Accessories</h3><!-- /.menu-title -->
-
                 <li class="menu-item-has-children dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Companies</a>
                     <ul class="sub-menu children dropdown-menu">
@@ -32,9 +29,33 @@
                         <li><i class="fa fa-exclamation-triangle"></i><a href="/company">Delete</a></li>
                     </ul>
                 </li>
-                <h3 class="menu-title">Modifications</h3><!-- /.menu-title -->
                 <li class="menu-item-has-children dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Categories</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="menu-icon fa fa-balance-scale"></i><a href="/addCategory">Add</a></li>
+                        <li><i class="menu-icon fa fa-exclamation-triangle"></i><a href="/category">Delete</a></li>
+                    </ul>
+                </li>
+
+                <h3 class="menu-title">Publicity Items</h3><!-- /.menu-title -->
+
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Media Highlights</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="menu-icon fa fa-fort-awesome"></i><a href="/addCompany">Add</a></li>
+                        <li><i class="fa fa-exclamation-triangle"></i><a href="/company">Delete</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Gallery</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="menu-icon fa fa-balance-scale"></i><a href="/addCategory">Add</a></li>
+                        <li><i class="menu-icon fa fa-exclamation-triangle"></i><a href="/category">Delete</a></li>
+                    </ul>
+                </li>
+                <h3 class="menu-title">Reviews</h3><!-- /.menu-title -->
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Reviews</a>
                     <ul class="sub-menu children dropdown-menu">
                         <li><i class="menu-icon fa fa-balance-scale"></i><a href="/addCategory">Add</a></li>
                         <li><i class="menu-icon fa fa-exclamation-triangle"></i><a href="/category">Delete</a></li>
