@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="impl_logo">
-                        <a href="/"><img src="{{ asset('images/logo1.png') }}" alt="Logo" class="img-fluid"></a>
+                        <a href="/"><img src="{{ asset('images/logo1.png') }}" alt="Logo" class="img-fluid" height="50px" width="100px"></a>
                     </div>
                     <button class="impl_menu_btn">
                         <i class="fa fa-car" aria-hidden="true"></i>
@@ -32,7 +32,7 @@
                     </button>
                     <div class="impl_menu_inner">
                         <div class="impl_logo_responsive">
-                            <a href="/"><img src="{{ asset('images/logo1.png') }}" alt="Logo" class="img-fluid"></a>
+                            <a href="/"><img src="{{ asset('images/logo1.png') }}" alt="Logo" class="img-fluid" height="50px" width="100px"></a>
                         </div>
                         <div class="impl_menu">
                             <nav>

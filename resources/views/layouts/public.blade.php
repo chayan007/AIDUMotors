@@ -12,7 +12,7 @@
 <!------ Preloader Start ------>
 <div id="preloader">
     <div id="status">
-        <img src="{{ asset('images/logo.png') }}" alt="" />
+        <img src="{{ asset('images/logo.png') }}" alt="" height="500px" width="500px"/>
         <div class="loader">
             Loading...
             <div class="ball"></div>
