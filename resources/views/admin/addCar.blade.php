@@ -78,6 +78,6 @@
                 <i class="fa fa-dot-circle-o"></i> Submit
             </button>
         </div>
-        </form>
     </div>
+        </form>
 @endsection

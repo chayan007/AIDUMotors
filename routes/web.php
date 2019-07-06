@@ -19,7 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about', 'PublicController@about');
-Route::view('/addCar', 'admin.addCar');
 
 Route::group( ['middleware' => 'auth' ], function()
 {
@@ -42,4 +41,3 @@ Route::group( ['middleware' => 'auth' ], function()
     Route::get('/deleteCompany/{id}', 'CompanyController@delete');
 });
 
-Route::view('/admin', 'admin.dashboard');
