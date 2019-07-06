@@ -25,4 +25,20 @@ class MediaController extends Controller
         $media = Media::where('id', $id)->first();
         $media->delete();
     }
+
+    public function addImage(){
+
+    }
+
+    public function deleteImage(){
+
+    }
+
+    public function addVideo(){
+
+    }
+
+    public function deleteVideo(){
+
+    }
 }

@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
 class CarController extends Controller
 {
     public function addOrUpdateCar(Request $request, $id){
-        $car = Car::all()->where('id', $id)->first();
+        $car = Car::where('id', $id)->first();
         if ($car == NULL)
         {
             $car = new Car();

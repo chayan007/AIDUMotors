@@ -8,10 +8,10 @@
     @endif
     <div class="card">
         <div class="card-header">
-            <strong>Add Product</strong>
+            <strong>Add Car</strong>
         </div>
         <div class="card-body card-block">
-            <form action="/addProduct" method="post" enctype="multipart/form-data" class="form-horizontal">
+            <form action="/addCar" method="post" enctype="multipart/form-data" class="form-horizontal">
                 @csrf
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="text-input" class=" form-control-label">Product </label></div>

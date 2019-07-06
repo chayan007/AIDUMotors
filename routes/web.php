@@ -30,7 +30,7 @@ Route::group( ['middleware' => 'auth' ], function()
     Route::get('/addProduct', 'ProductController@show');
     Route::view('/addCategory', 'admin.addCategory');
     Route::view('/addCompany', 'admin.addCompany');
-    Route::post('/addProduct', 'ProductController@add');
+    Route::post('/addCar', 'CarController@addOrUpdateCar');
     Route::post('/updateProduct/{id}', 'ProductController@update');
     Route::get('/deleteProduct/{id}', 'ProductController@delete');
     Route::post('/addCategory', 'CategoryController@add');
