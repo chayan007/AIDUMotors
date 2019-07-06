@@ -10,7 +10,7 @@ class Media extends Model
     use Notifiable;
     protected $fillable =[
         'id',
-        'image_path',
+        'img_path',
         'description',
     ];
 }
