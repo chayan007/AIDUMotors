@@ -23,10 +23,13 @@ class CarController extends Controller
             $car->price = $request->price;
             $car->slug = Str::slug($request->model + $request->transmission, '-');
             $car->description = $request->description;
-            $car->featured = $request->featured;
             if ($request->hasFile('img')){
                 $path = $request->file('img')->store('public');
                 $car->img_path = $path;
+            }
+            if ($request->hasFile('brochure')){
+                $path = $request->file('brochure')->store('public');
+                $car->brochure_path = $path;
             }
             $car->save();
             return view();

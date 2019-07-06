@@ -14,54 +14,63 @@
             <form action="/addCar" method="post" enctype="multipart/form-data" class="form-horizontal">
                 @csrf
                 <div class="row form-group">
-                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Product </label></div>
-                    <div class="col-12 col-md-9"><input type="text" id="text-input" name="name" placeholder="Product" class="form-control"><small class="form-text text-muted">Just the Product Name</small></div>
+                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Model </label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="text" id="text-input" name="model" placeholder="Model" class="form-control">
+                        <small class="form-text text-muted">Just the Car Name</small></div>
                 </div>
                 <div class="row form-group">
-                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Price </label></div>
-                    <div class="col-12 col-md-9"><input type="number" id="text-input" name="price" placeholder="Price" class="form-control"><small class="form-text text-muted">Enter 0 for 'Contact for Price'</small></div>
+                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Minimum Price </label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="number" id="text-input" name="price" placeholder="Price" class="form-control">
+                        <small class="form-text text-muted">Minimum price can always be clouded with Tax.</small></div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Minimum EMI Option </label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="number" id="text-input" name="emi" placeholder="EMI" class="form-control">
+                        <small class="form-text text-muted">EMIs also has residual charges to be elevated, Relax !</small></div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Mileage </label></div>
+                    <div class="col-12 col-md-9">
+                        <input type="number" id="text-input" name="mileage" placeholder="Mileage" class="form-control">
+                        <small class="form-text text-muted">Just the Product Name</small></div>
                 </div>
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="textarea-input" class=" form-control-label">Description</label></div>
-                    <div class="col-12 col-md-9"><textarea name="description" id="textarea-input" rows="9" placeholder="Describe Product..." class="form-control"></textarea></div>
+                    <div class="col-12 col-md-9">
+                        <textarea name="description" id="textarea-input" rows="9" placeholder="Describe the Model, write few sassy lines..." class="form-control"></textarea></div>
                 </div>
                 <div class="row form-group">
-                    <div class="col col-md-3"><label for="selectLg" class=" form-control-label">Category</label></div>
+                    <div class="col col-md-3"><label for="selectLg" class=" form-control-label">Transmission</label></div>
                     <div class="col-12 col-md-9">
                         <select name="category" id="selectLg" class="form-control-lg form-control">
-                            <option value="#">Please select</option>
-                            @foreach($categories as $category)
-                            <option value="{{ $category->id }}">{{ $category->category }}</option>
-                            @endforeach
+                            <option value="Not Specified">Please select</option>
+                            <option value="Auto">Auto</option>
+                            <option value="Manual">Manual</option>
+                            <option value="Auto & Manual">Auto & Manual</option>
                         </select>
                     </div>
                 </div>
                 <div class="row form-group">
-                    <div class="col col-md-3"><label for="selectLg" class=" form-control-label">Company</label></div>
+                    <div class="col col-md-3"><label for="selectLg" class=" form-control-label">Want it in Home Page ?</label></div>
                     <div class="col-12 col-md-9">
                         <select name="company" id="selectLg" class="form-control-lg form-control">
-                            <option value="#">Please select</option>
-                            @foreach($companies as $company)
-                                <option value="{{ $company->id }}">{{ $company->company }}</option>
-                            @endforeach
+                            <option value="0">Nope</option>
+                            <option value="1">Yeah</option>
                         </select>
                     </div>
                 </div>
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="file-input" class=" form-control-label">Image</label></div>
-                    <div class="col-12 col-md-9"><input type="file" id="file-input" name="img1" class="form-control-file"></div>
-                </div>
-                <div class="row form-group">
-                    <div class="col col-md-3"><label for="file-input" class=" form-control-label">Image</label></div>
-                    <div class="col-12 col-md-9"><input type="file" id="file-input" name="img2" class="form-control-file"></div>
-                </div>
-                <div class="row form-group">
-                    <div class="col col-md-3"><label for="file-input" class=" form-control-label">Image</label></div>
-                    <div class="col-12 col-md-9"><input type="file" id="file-input" name="img3" class="form-control-file"></div>
+                    <div class="col-12 col-md-9">
+                        <input type="file" id="file-input" name="img1" class="form-control-file"></div>
                 </div>
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="file-input" class=" form-control-label">Brochure</label></div>
-                    <div class="col-12 col-md-9"><input type="file" id="file-input" name="brochure" class="form-control-file"></div>
+                    <div class="col-12 col-md-9">
+                        <input type="file" id="file-input" name="brochure" class="form-control-file"></div>
                 </div>
         </div>
         <div class="card-footer">

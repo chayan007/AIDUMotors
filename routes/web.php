@@ -18,7 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/about', 'PublicController@about')->name('home');
+Route::get('/about', 'PublicController@about');
+Route::view('/addCar', 'admin.addCar');
 
 Route::group( ['middleware' => 'auth' ], function()
 {

@@ -21,7 +21,8 @@ class CreateCarsTable extends Migration
             $table->string('mileage')->nullable();
             $table->string('slug');
             $table->string('price')->nullable();
-            $table->string('image_path')->nullable();
+            $table->string('img_path')->nullable();
+            $table->string('brochure_path')->nullable();
             $table->text('description')->nullable();
             $table->integer('featured')->default(0);
             $table->timestamps();
