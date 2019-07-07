@@ -87,7 +87,7 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="impl_facility_wrapper">
-                                        <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                        <img src="https://ik.imagekit.io/hj8sm3kk7/medium/gallery/exterior/33/302/renault-duster-front-angle-low-view-403840.jpg" alt="" height="180px" width="310px"/>
                                         <div class="impl_ser_hover_ovrly">
                                             <div class="impl_ser_text">
                                                 <img src="images/svg/key.svg" alt="key" />
@@ -103,7 +103,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="impl_facility_wrapper">
-                                        <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                        <img src="https://images.livemint.com/img/2019/05/27/600x338/Fiat_1558981450287.jpg" alt="" height="180px" width="310px"/>
                                         <div class="impl_ser_hover_ovrly">
                                             <div class="impl_ser_text">
                                                 <img src="images/svg/doller.svg" alt="doller" />
@@ -119,7 +119,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="impl_facility_wrapper">
-                                        <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                        <img src="https://www.cdn.renault.com/content/dam/Renault/IN/corporate/service-and-maintenance/Renault-Service-maintenance-001.jpg.ximg.s_12_h.smart.jpg" alt="" height="180px" width="310px"/>
                                         <div class="impl_ser_hover_ovrly">
                                             <div class="impl_ser_text">
                                                 <img src="images/svg/car.svg" alt="car" />
@@ -135,7 +135,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="impl_facility_wrapper">
-                                        <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                        <img src="https://hips.hearstapps.com/roa.h-cdn.co/assets/16/20/1463500765-dsc-0807-1280x851.jpg" alt="" height="180px" width="310px"/>
                                         <div class="impl_ser_hover_ovrly">
                                             <div class="impl_ser_text">
                                                 <img src="images/svg/insurance_car.svg" alt="car" />
