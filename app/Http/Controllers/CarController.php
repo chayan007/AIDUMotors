@@ -21,8 +21,12 @@ class CarController extends Controller
             $car->emi = $request->emi;
             $car->mileage = $request->mileage;
             $car->price = $request->price;
-            $car->slug = Str::slug($request->model + $request->transmission, '-');
+            $car->type = $request->type;
+            $car->slug = Str::slug($request->model, '-');
             $car->description = $request->description;
+            if ($request->has('featured')){
+                $car->featured = $request->featured;
+            }
             if ($request->hasFile('img')){
                 $path = $request->file('img')->store('public');
                 $car->img_path = $path;
@@ -32,11 +36,13 @@ class CarController extends Controller
                 $car->brochure_path = $path;
             }
             $car->save();
-            return view();
+            return redirect()->action(
+                'CarController@showCars'
+            );
         }
         catch (Exception $e)
         {
-            return view();
+            return view('admin.addCar', ['error' => 'Failed to add Car']);
         }
     }
 
@@ -61,5 +67,15 @@ class CarController extends Controller
 
     public function searchController($model, $type){
 
+    }
+
+    public function showCarForm(){
+        return view('admin.addCar');
+    }
+
+    public function showCars()
+    {
+        $cars = Car::all();
+        return view('admin.Car', ['cars' => $cars]);
     }
 }

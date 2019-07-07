@@ -14,6 +14,7 @@ class Car extends Model
         'emi',
         'mileage',
         'price',
+        'type',
         'img_path',
         'brochure_path',
         'description',
