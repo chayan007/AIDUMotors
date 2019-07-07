@@ -61,17 +61,17 @@
                                                     <span class="impl_img_tag" title="compare"><a href="/car/1"><i class="fa fa-exchange" aria-hidden="true"></i></a></span>
                                                 </div>
                                                 <div class="impl_fea_car_data">
-                                                    <h2><a href="/car/1">Aurora</a></h2>
+                                                    <h2><a href="/car/1">{{ $car->model }}</a></h2>
                                                     <ul>
-                                                        <li><span class="impl_fea_title">model</span>
-                                                            <span class="impl_fea_name">Aurora 811</span></li>
-                                                        <li><span class="impl_fea_title">Vehicle Status</span>
-                                                            <span class="impl_fea_name">new</span></li>
-                                                        <li><span class="impl_fea_title">Color</span>
-                                                            <span class="impl_fea_name">white</span></li>
+                                                        <li><span class="impl_fea_title">Mileage</span>
+                                                            <span class="impl_fea_name">{{ $car->mileage }}</span></li>
+                                                        <li><span class="impl_fea_title">Type</span>
+                                                            <span class="impl_fea_name">{{ $car->type }}</span></li>
+                                                        <li><span class="impl_fea_title">Transmission</span>
+                                                            <span class="impl_fea_name">{{ $car->transmission }}</span></li>
                                                     </ul>
                                                     <div class="impl_fea_btn">
-                                                        <button class="impl_btn"><span class="impl_doller">$ 72000 </span><span class="impl_bnw">Check Out</span></button>
+                                                        <button class="impl_btn"><span class="impl_doller">₹ {{ $car->price }} </span><span class="impl_bnw">Check Out</span></button>
                                                     </div>
                                                 </div>
                                             </div>

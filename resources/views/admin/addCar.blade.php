@@ -49,7 +49,7 @@
                             <option value="Not Specified">Please select</option>
                             <option value="Auto">Auto</option>
                             <option value="Manual">Manual</option>
-                            <option value="Auto & Manual">Auto & Manual</option>
+                            <option value="Auto/Manual">Auto & Manual</option>
                         </select>
                     </div>
                 </div>
