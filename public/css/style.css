@@ -1394,7 +1394,7 @@ p.slogan strong {
 /*----Service Css Start----*/
 
 .impl_service_wrapper {
-    background-image:url(http://via.placeholder.com/1920x620/666);
+    background-image:url(http://orignallogo.com/wp-content/uploads/2018/06/free-Renault-vector-logo-templates-and-icons.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2514,7 +2514,7 @@ p.impl_ser_para {
     margin: 0px;
 }
 .impl_footer_wrapper.impl_home_footer {
-    background-image: url(http://via.placeholder.com/1920x721);
+    background-image: url(https://images.news18.com/ibnlive/uploads/2019/07/Renault-Duster1.jpg);
     z-index: -1;
     position: fixed;
     bottom: 0;
@@ -3446,7 +3446,7 @@ h2.widget-title {
     height: 93%;
 }
 .impl_provide_wrapper .impl_video_inner {
-    background-image: url(http://via.placeholder.com/555x397);
+    background-image: url(https://www.thestatesman.com/wp-content/uploads/2019/06/RtR.jpg);
     height: 100%;
     right: 0;
     top: 0;
@@ -5361,7 +5361,7 @@ label.compare_check_label {
 }
 @media(max-width:1024px){
 	.impl_purchase_wrapper .impl_fea_car_data {
-		min-height: 343px;
+		min-height: 200px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -6143,7 +6143,7 @@ label.compare_check_label {
         min-height: 278px;
     }
     .impl_purchase_wrapper .impl_fea_car_data {
-        min-height: 320px;
+        min-height: 200px;
     }
     .impl_product_brand.widget.woocommerce ul li,
     .impl_product_color.widget.woocommerce ul li {

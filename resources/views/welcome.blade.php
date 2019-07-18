@@ -96,7 +96,7 @@
                                             <div class="impl_ser_text_ovrly">
                                                 <img src="images/svg/key.svg" alt="key" />
                                                 <h3>purchase</h3>
-                                                <p>At vero eos et accusamus etiusto odio dignissimos ducimus qui blanditiis.</p>
+                                                <p>Purchase from the most trusted Renault brand across Mizoram.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -112,7 +112,7 @@
                                             <div class="impl_ser_text_ovrly">
                                                 <img src="images/svg/doller.svg" alt="doller" />
                                                 <h3>benefits</h3>
-                                                <p>At vero eos et accusamus etiusto odio dignissimos ducimus qui blanditiis.</p>
+                                                <p>Insurance assistance, bank loan assistance, verification assistance, what not?</p>
                                             </div>
                                         </div>
                                     </div>
@@ -128,7 +128,7 @@
                                             <div class="impl_ser_text_ovrly">
                                                 <img src="images/svg/car.svg" alt="car" />
                                                 <h3>services</h3>
-                                                <p>At vero eos et accusamus etiusto odio dignissimos ducimus qui blanditiis.</p>
+                                                <p>Wide range of services like loan, repair, parts, etc.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -144,7 +144,7 @@
                                             <div class="impl_ser_text_ovrly">
                                                 <img src="images/svg/insurance_car.svg" alt="car" />
                                                 <h3>modify</h3>
-                                                <p>At vero eos et accusamus etiusto odio dignissimos ducimus qui blanditiis.</p>
+                                                <p>We modify your car to the next level. Make it smoke on the streets.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -227,57 +227,7 @@
             </div>
         </div>
     </div>
-    <!------ Counter Section Start ------>
-    <div class="impl_counter_wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="impl_cont_box">
-                        <div class="impl_count_img">
-                            <img src="images/svg/count_car.svg" alt="" />
-                        </div>
-                        <div class="impl_count_text">
-                            <h1 class="count-no" data-to="8210" data-speed="10000">8210</h1>
-                            <p>Cars in stock</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="impl_cont_box">
-                        <div class="impl_count_img">
-                            <img src="images/svg/trophy.svg" alt="" />
-                        </div>
-                        <div class="impl_count_text">
-                            <h1 class="count-no" data-to="686" data-speed="10000">686</h1>
-                            <p>awards</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="impl_cont_box">
-                        <div class="impl_count_img">
-                            <img src="images/svg/user.svg" alt="" />
-                        </div>
-                        <div class="impl_count_text">
-                            <h1 class="count-no" data-to="6281" data-speed="10000">6281</h1>
-                            <p>customers</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="impl_cont_box">
-                        <div class="impl_count_img">
-                            <img src="images/svg/count_car1.svg" alt="" />
-                        </div>
-                        <div class="impl_count_text">
-                            <h1 class="count-no" data-to="4100" data-speed="10000">4100</h1>
-                            <p>Cars Repaired</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   @include('includes.counter')
     <!------ Featured Cars Start ------>
     <div class="impl_featured_wrappar">
         <div class="container">

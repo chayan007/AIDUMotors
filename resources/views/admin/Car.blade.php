@@ -129,7 +129,7 @@
                                                 <div class="row form-group">
                                                     <div class="col col-md-3"><label for="selectLg" class=" form-control-label">Car Type</label></div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="featured" id="selectLg" class="form-control-lg form-control">
+                                                        <select name="type" id="selectLg" class="form-control-lg form-control">
                                                             <option >Hatchback</option>
                                                             <option >Sedan</option>
                                                             <option >MPV</option>

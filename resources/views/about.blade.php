@@ -94,8 +94,8 @@
                             <ul class="impl_timeline">
                                 <li>
                                     <div class="impl_tl_item">
-                                        <h2>2001</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majorty have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                                        <h2>2016</h2>
+                                        <p>Grand launch of AIDU Motors at the heart of Mizoram, Aizawl. We started Renault operations in Aizawl.
                                         </p>
                                         <span class="impl_tl_icon">
 											<span class="impl_tl_dot"></span>
@@ -104,8 +104,8 @@
                                 </li>
                                 <li>
                                     <div class="impl_tl_item impl_tl_item_rt">
-                                        <h2>2004</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majorty have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                        <h2>2016</h2>
+                                        <p>Within a year, we have sold more than 100 cars of different model across whole Mizoram. We started to move for the apex position across Mizoram for our customer relation values.</p>
                                         <span class="impl_tl_icon">
 											<span class="impl_tl_dot"></span>
                                         </span>
@@ -113,8 +113,8 @@
                                 </li>
                                 <li>
                                     <div class="impl_tl_item">
-                                        <h2>2011</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majorty have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                        <h2>2018</h2>
+                                        <p>AIDU Motors got featured in Zonet Channel, the only mass media entertainer of North East India. We came on the top of the Renault car supply chain in Mizoram.</p>
                                         <span class="impl_tl_icon">
 											<span class="impl_tl_dot"></span>
                                         </span>
@@ -122,8 +122,10 @@
                                 </li>
                                 <li>
                                     <div class="impl_tl_item impl_tl_item_rt">
-                                        <h2>2017</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majorty have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                        <h2>2018</h2>
+                                        <p>AIDU Motors grabbed two prestigious awards. This was the mark of our new leadership across Mizoram.</p>
+                                        <p>&#9755; BEST CC Per 100 WINNER</p>
+                                        <p>&#9755; BEST TRAINED MANPOWER WINNER</p>
                                         <span class="impl_tl_icon">
 											<span class="impl_tl_dot"></span>
                                         </span>

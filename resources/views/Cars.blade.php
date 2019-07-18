@@ -24,10 +24,10 @@
                             <div class="col-lg-3 col-md-4">
                                 <div class="impl_sidebar">
                                     <div class="impl_product_search widget woocommerce">
-                                        <div class="impl_footer_subs">
-                                            <input type="text" class="form-control" placeholder="Search...">
-                                            <button class="foo_subs_btn"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                        </div>
+                                        {{--<div class="impl_footer_subs">--}}
+                                            {{--<input type="text" class="form-control" placeholder="Search...">--}}
+                                            {{--<button class="foo_subs_btn"><i class="fa fa-search" aria-hidden="true"></i></button>--}}
+                                        {{--</div>--}}
                                     </div>
                                     <!--Price Range-->
                                     <div class="impl_product_price widget woocommerce">
@@ -56,9 +56,9 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="impl_fea_car_box">
                                                 <div class="impl_fea_car_img">
-                                                    <img src="{{ Storage::url($car->img_path) }}" height="300px" width="500px" alt="Car_Image" class="img-fluid impl_frst_car_img" />
-                                                    <img src="{{ Storage::url($car->img_path) }}" height="300px" width="500px" alt="Car_Image" class="img-fluid impl_hover_car_img" />
-                                                    <span class="impl_img_tag" title="compare"><a href="/car/1"><i class="fa fa-exchange" aria-hidden="true"></i></a></span>
+                                                    <img src="{{ Storage::url($car->img_path) }}" height="300px" width="500px" alt="Car_Image" class="img impl_frst_car_img" />
+                                                    <img src="{{ Storage::url($car->img_path) }}" height="300px" width="500px" alt="Car_Image" class="img impl_hover_car_img" />
+                                                    <span class="impl_img_tag" title="compare"><a href="/car/{{ $car->id }}"><i class="fa fa-exchange" aria-hidden="true"></i></a></span>
                                                 </div>
                                                 <div class="impl_fea_car_data">
                                                     <h2><a href="/car/1">{{ $car->model }}</a></h2>

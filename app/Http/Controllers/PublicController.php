@@ -17,4 +17,14 @@ class PublicController extends Controller
         $cars = Car::paginate(10);
         return view('Cars', ['cars' => $cars]);
     }
+
+    public function services()
+    {
+        return view('Services');
+    }
+
+    public function team()
+    {
+        return view('Team');
+    }
 }
