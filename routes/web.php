@@ -28,6 +28,7 @@ Route::group( ['middleware' => 'auth' ], function()
 {
     Route::get('logout', 'Auth\LoginController@logout')->name('logout');
     Route::view('/admin', 'admin.dashboard');
+    Route::view('/dashboard', 'admin.dashboard');
     Route::get('/car', 'CarController@showCars');
     Route::get('/image', 'MediaController@showImages');
     Route::get('/media', 'MediaController@showMedia');
