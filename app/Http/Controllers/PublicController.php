@@ -27,4 +27,9 @@ class PublicController extends Controller
     {
         return view('Team');
     }
+
+    public function contact()
+    {
+        return view('Contact');
+    }
 }

@@ -29,13 +29,13 @@
                         <li><i class="fa fa-exclamation-triangle"></i><a href="/accessory">Delete</a></li>
                     </ul>
                 </li>
-                <li class="menu-item-has-children dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Modifications</a>
-                    <ul class="sub-menu children dropdown-menu">
-                        <li><i class="menu-icon fa fa-balance-scale"></i><a href="/addModification">Add</a></li>
-                        <li><i class="menu-icon fa fa-exclamation-triangle"></i><a href="/modification">Delete</a></li>
-                    </ul>
-                </li>
+                {{--<li class="menu-item-has-children dropdown">--}}
+                    {{--<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Modifications</a>--}}
+                    {{--<ul class="sub-menu children dropdown-menu">--}}
+                        {{--<li><i class="menu-icon fa fa-balance-scale"></i><a href="/addModification">Add</a></li>--}}
+                        {{--<li><i class="menu-icon fa fa-exclamation-triangle"></i><a href="/modification">Delete</a></li>--}}
+                    {{--</ul>--}}
+                {{--</li>--}}
 
                 <h3 class="menu-title">Publicity Items</h3><!-- /.menu-title -->
 
@@ -49,8 +49,8 @@
                 <li class="menu-item-has-children dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Gallery</a>
                     <ul class="sub-menu children dropdown-menu">
-                        <li><i class="menu-icon fa fa-balance-scale"></i><a href="/addGallery">Add</a></li>
-                        <li><i class="menu-icon fa fa-exclamation-triangle"></i><a href="/gallery">Delete</a></li>
+                        <li><i class="menu-icon fa fa-balance-scale"></i><a href="/addImage">Add</a></li>
+                        <li><i class="menu-icon fa fa-exclamation-triangle"></i><a href="/image">Delete</a></li>
                     </ul>
                 </li>
                 <h3 class="menu-title">Reviews</h3><!-- /.menu-title -->

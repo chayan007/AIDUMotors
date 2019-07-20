@@ -64,18 +64,19 @@
                             <div class="impl_search_box   custom_select">
                                 <h1>Search Your Car</h1>
                                 <select>
-                                    <option>Select Model</option>
-                                    <option value="b1">Model 1</option>
-                                    <option value="b2">Model 2</option>
-                                    <option value="b3">Model 3</option>
-                                    <option value="b4">Model 4</option>
+                                    <option>Select Type</option>
+                                    <option >Hatchback</option>
+                                    <option >Sedan</option>
+                                    <option >MPV</option>
+                                    <option >SUV</option>
+                                    <option >Couple</option>
+                                    <option >Convertible</option>
                                 </select>
                                 <select>
-                                    <option>Select Type</option>
-                                    <option value="b1">Type 1</option>
-                                    <option value="b2">Type 2</option>
-                                    <option value="b3">Type 3</option>
-                                    <option value="b4">Type 4</option>
+                                    <option>Select Transmission</option>
+                                    <option value="Auto">Auto</option>
+                                    <option value="Manual">Manual</option>
+                                    <option value="Auto/Manual">Auto & Manual</option>
                                 </select>
                                 <div class="impl_search_btn">
                                     <button class="impl_btn">search vehicle</button>

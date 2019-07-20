@@ -29,13 +29,6 @@
                                             {{--<button class="foo_subs_btn"><i class="fa fa-search" aria-hidden="true"></i></button>--}}
                                         {{--</div>--}}
                                     </div>
-                                    <!--Price Range-->
-                                    <div class="impl_product_price widget woocommerce">
-                                        <h2 class="widget-title">price range</h2>
-                                        <div class="price_range">
-                                            <input type="text" id="range_24" name="ionRangeSlider" value="" />
-                                        </div>
-                                    </div>
                                     <!--Car Type-->
                                     <div class="impl_product_type widget woocommerce">
                                         <h2 class="widget-title">car type</h2>

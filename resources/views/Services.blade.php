@@ -28,7 +28,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="impl_facility_wrapper">
-                                <img src="https://cdn.iconscout.com/icon/free/png-256/renault-2-282602.png" alt="" class="img-fluid" />
+                                <img src="https://content.icarcdn.com/styles/article_cover/s3/field/article/cover/2018/renault_logo_tn.jpg?itok=2m3xl5WV" alt="" height="300px" width="300px" />
                                 <div class="impl_ser_hover_ovrly">
                                     <div class="impl_ser_text">
                                         <img src="images/svg/key.svg" alt="key" />
@@ -41,7 +41,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="impl_facility_wrapper">
-                                <img src="https://content.icarcdn.com/styles/article_cover/s3/field/article/cover/2018/renault_logo_tn.jpg?itok=2m3xl5WV" alt="" class="img-fluid" />
+                                <img src="http://brassminus.ru/uploads/wallpapers/15759-renault-logo-hd-wallpapers.jpg" alt="" height="300px" width="300px" />
                                 <div class="impl_ser_hover_ovrly">
                                     <div class="impl_ser_text">
                                         <img src="images/svg/doller.svg" alt="key" />
@@ -54,7 +54,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="impl_facility_wrapper">
-                                <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                <img src="https://www.challenges.fr/assets/img/2015/08/24/images_list-r4x3w1000-578fb486272d1-renault-logo-1992_7.jpg" alt="" height="300px" width="300px" />
                                 <div class="impl_ser_hover_ovrly">
                                     <div class="impl_ser_text">
                                         <img src="images/svg/insurance_car.svg" alt="key" />
@@ -65,7 +65,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="impl_facility_wrapper">
-                                <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                <img src="https://teja10.kuikr.com/cb1/news/Renault-logo-car_1.jpeg" alt="" height="300px" width="300px" />
                                 <div class="impl_ser_hover_ovrly">
                                     <div class="impl_ser_text">
                                         <img src="images/svg/trust.svg" alt="key" />
@@ -100,11 +100,11 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="impl_facility_wrapper">
-                                <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                <img src="https://watsupptoday.com/a/imginsert/image-insert-14032017-133840.jpg" alt="" height="300px" width="300px" />
                                 <div class="impl_ser_hover_ovrly">
                                     <div class="impl_ser_text">
                                         <img src="images/svg/repair.svg" alt="key" />
-                                        <h3>repair</h3>
+                                        <h3>Workshop on Wheels</h3>
                                     </div>
                                     <div class="impl_ser_text_ovrly">
                                     </div>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="impl_facility_wrapper">
-                                <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                <img src="https://logos-download.com/wp-content/uploads/2016/02/Renault_logo_on_the_car.jpg" alt="" height="300px" width="300px" />
                                 <div class="impl_ser_hover_ovrly">
                                     <div class="impl_ser_text">
                                         <img src="images/svg/security.svg" alt="key" />
@@ -126,7 +126,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="impl_facility_wrapper">
-                                <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                <img src="https://diamond-performance.co.uk/wp-content/uploads/imported/1/Renault-Clio-4-2017-Facelift-gloss-BLACK-BADGE-COVER-FRONT-only-162453457541-3.JPG" alt="" height="300px" width="300px" />
                                 <div class="impl_ser_hover_ovrly">
                                     <div class="impl_ser_text">
                                         <img src="images/svg/clock.svg" alt="key" />
@@ -137,7 +137,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="impl_facility_wrapper">
-                                <img src="http://via.placeholder.com/312x218" alt="" class="img-fluid" />
+                                <img src="https://ak7.picdn.net/shutterstock/videos/9874247/thumb/4.jpg" alt="" height="300px" width="300px" />
                                 <div class="impl_ser_hover_ovrly">
                                     <div class="impl_ser_text">
                                         <img src="images/svg/support.svg" alt="key" />

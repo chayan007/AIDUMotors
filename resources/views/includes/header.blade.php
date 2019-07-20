@@ -51,7 +51,7 @@
                                         <ul class="sub-menu">
                                             <li><a href="/cars">Car</a></li>
                                             <li><a href="/accessories">Accessories</a></li>
-                                            <li><a href="/modifications">Modification</a></li>
+                                            {{--<li><a href="/modifications">Modification</a></li>--}}
                                         </ul>
                                     </li>
                                     <li><a href="/services">Services</a></li>

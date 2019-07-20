@@ -22,25 +22,27 @@ Route::get('/about', 'PublicController@about');
 Route::get('/cars', 'PublicController@showCars');
 Route::get('/services', 'PublicController@services');
 Route::get('/team', 'PublicController@team');
+Route::get('/contact', 'PublicController@contact');
 
 Route::group( ['middleware' => 'auth' ], function()
 {
     Route::get('logout', 'Auth\LoginController@logout')->name('logout');
     Route::view('/admin', 'admin.dashboard');
     Route::get('/car', 'CarController@showCars');
+    Route::get('/image', 'MediaController@showImages');
+    Route::get('/media', 'MediaController@showMedia');
+    Route::get('/review', 'ReviewController@showReview');
+    Route::get('/deleteImage/{id}', 'MediaController@deleteImage');
+    Route::get('/deleteMedia/{id}', 'MediaController@deleteMedia');
+    Route::get('/deleteReview/{id}', 'ReviewController@deleteReview');
     Route::get('/modification', 'CategoryController@get');
     Route::get('/accessory', 'CompanyController@get');
     Route::get('/addCar', 'CarController@showCarForm');
-    Route::view('/addCategory', 'admin.addCategory');
-    Route::view('/addCompany', 'admin.addCompany');
+    Route::get('/addImage', 'MediaController@showImageForm');
+    Route::get('/addMedia', 'MediaController@showMediaForm');
+    Route::post('/addImage/{id}', 'MediaController@addImage');
+    Route::post('/addMedia/{id}', 'MediaController@addMedia');
+    Route::post('/addReview/{id}', 'ReviewController@addOrUpdateReview');
     Route::post('/addCar/{id}', 'CarController@addOrUpdateCar');
-    Route::post('/updateProduct/{id}', 'ProductController@update');
-    Route::get('/deleteProduct/{id}', 'ProductController@delete');
-    Route::post('/addCategory', 'CategoryController@add');
-    Route::post('/updateCategory/{id}', 'CategoryController@update');
-    Route::get('/deleteCategory/{id}', 'CategoryController@delete');
-    Route::post('/addCompany', 'CompanyController@add');
-    Route::post('/updateCompany/{id}', 'CompanyController@update');
-    Route::get('/deleteCompany/{id}', 'CompanyController@delete');
 });
 
