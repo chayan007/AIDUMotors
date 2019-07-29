@@ -23,6 +23,8 @@ Route::get('/cars', 'PublicController@showCars');
 Route::get('/services', 'PublicController@services');
 Route::get('/team', 'PublicController@team');
 Route::get('/contact', 'PublicController@contact');
+Route::get('/medias', 'PublicController@showMedias');
+Route::get('/gallery', 'PublicController@showGallery');
 
 Route::group( ['middleware' => 'auth' ], function()
 {

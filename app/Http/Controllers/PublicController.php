@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Car;
+use App\Images;
+use App\Media;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller
@@ -32,4 +34,17 @@ class PublicController extends Controller
     {
         return view('Contact');
     }
+
+    public function showMedias()
+    {
+        $medias = Media::paginate(10);
+        return view('Media', ['medias' => $medias]);
+    }
+
+    public function showGallery()
+    {
+        $galleries = Images::paginate(15);
+        return view('Gallery', ['galleries' => $galleries]);
+    }
+
 }

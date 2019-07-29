@@ -57,8 +57,8 @@
                                     <li><a href="/services">Services</a></li>
                                     <li class="dropdown"><a href="javascript:;">Media & Events</a>
                                         <ul class="sub-menu">
-                                            <li><a href="/media">Media Highlights</a></li>
-                                            <li><a href="/events">Gallery</a></li>
+                                            <li><a href="/medias">Media Highlights</a></li>
+                                            <li><a href="/gallery">Gallery</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="/reviews">Reviews</a></li>

@@ -12,27 +12,13 @@
     <div class="impl_foo_wrapper">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="impl_foo_box footer_abt_text">
                         <a href="#"><img src="images/logo.png" alt=""></a>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable by injected humour.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="impl_foo_box">
-                        <h1 class="impl_foo_title">Basic Information</h1>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Changing Oil</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Saving Fuel</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Antilock Brakes</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Battery</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Tips On Long Car Trips</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Air Pressure</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Tire Replacement</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="impl_foo_box">
                         <h1 class="impl_foo_title">contact us</h1>
                         <ul>
@@ -59,7 +45,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="impl_foo_box">
                         <h1 class="impl_foo_title">Subscribe </h1>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
@@ -78,7 +64,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <p class="impl_copyright">Copyright &copy; 2019 Aidu Motors. Developed by <a href="http://www.thediscretelabs.com" style="font-weight: bold">The Discrete Labs</a></p>
+                <p class="impl_copyright">Copyright &copy; 2019 Aidu Motors. Developed by <a href="https://www.thediscretelabs.com" style="font-weight: bold">The Discrete Labs</a></p>
             </div>
         </div>
     </div>
