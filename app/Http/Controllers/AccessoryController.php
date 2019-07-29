@@ -9,7 +9,7 @@ use Mockery\Exception;
 class AccessoryController extends Controller
 {
     public function addOrUpdateAccessory(Request $request, $id){
-        $accessory = Accessory::all()->where('id', $id)->first();
+        $accessory = Accessory::where('id', $id)->first();
         if ($accessory == NULL){
             $accessory = new Accessory();
         }
@@ -22,7 +22,7 @@ class AccessoryController extends Controller
                 $accessory->img_path = $path;
             }
             $accessory->save();
-            return view();
+            return view('admin.Accessories');
         }
         catch (Exception $e){
             return view();
@@ -33,5 +33,16 @@ class AccessoryController extends Controller
         $accessory = Accessory::all()->where('id', $id)->first();
         $accessory->delete();
         return view();
+    }
+
+    public function showAccessoryForm()
+    {
+        return view('admin.AddAccessory');
+    }
+
+    public function showAccessories()
+    {
+        $accessories = Accessory::all();
+        return view('admin.Accessory', ['accessories' => $accessories]);
     }
 }

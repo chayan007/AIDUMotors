@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Accessory;
 use App\Car;
 use App\Images;
 use App\Media;
@@ -45,6 +46,12 @@ class PublicController extends Controller
     {
         $galleries = Images::paginate(15);
         return view('Gallery', ['galleries' => $galleries]);
+    }
+
+    public function showAccessories()
+    {
+        $accessories = Accessory::paginate(15);
+        return view('Accessories', ['accessories' => $accessories]);
     }
 
 }

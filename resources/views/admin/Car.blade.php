@@ -1,5 +1,5 @@
 @extends('admin.layouts.admin')
-@section('page', 'Products')
+@section('page', 'Cars')
 @section('content')
     @if(session('update'))
         <div class="alert alert-success" role="alert">

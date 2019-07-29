@@ -35,7 +35,7 @@
                     <div class="col col-md-3"><label for="text-input" class=" form-control-label">Mileage </label></div>
                     <div class="col-12 col-md-9">
                         <input type="number" id="text-input" name="mileage" placeholder="Mileage" class="form-control">
-                        <small class="form-text text-muted">Just the Product Name</small></div>
+                        <small class="form-text text-muted">As mentioned in brochure or ads</small></div>
                 </div>
                 <div class="row form-group">
                     <div class="col col-md-3"><label for="textarea-input" class="form-control-label">Description</label></div>

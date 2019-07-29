@@ -20,6 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about', 'PublicController@about');
 Route::get('/cars', 'PublicController@showCars');
+Route::get('/accessories', 'PublicController@showAccessories');
 Route::get('/services', 'PublicController@services');
 Route::get('/team', 'PublicController@team');
 Route::get('/contact', 'PublicController@contact');
@@ -38,14 +39,17 @@ Route::group( ['middleware' => 'auth' ], function()
     Route::get('/deleteImage/{id}', 'MediaController@deleteImage');
     Route::get('/deleteMedia/{id}', 'MediaController@deleteMedia');
     Route::get('/deleteReview/{id}', 'ReviewController@deleteReview');
+    Route::get('/deleteAccessory/{id}', 'AccessoryController@deleteAccessory');
     Route::get('/modification', 'CategoryController@get');
-    Route::get('/accessory', 'CompanyController@get');
+    Route::get('/accessory', 'AccessoryController@showAccessories');
     Route::get('/addCar', 'CarController@showCarForm');
+    Route::get('/addAccessory', 'AccessoryController@showAccessoryForm');
     Route::get('/addImage', 'MediaController@showImageForm');
     Route::get('/addMedia', 'MediaController@showMediaForm');
     Route::post('/addImage/{id}', 'MediaController@addImage');
     Route::post('/addMedia/{id}', 'MediaController@addMedia');
     Route::post('/addReview/{id}', 'ReviewController@addOrUpdateReview');
     Route::post('/addCar/{id}', 'CarController@addOrUpdateCar');
+    Route::post('/addAccessory/{id}', 'AccessoryController@addOrUpdateAccessory');
 });
 
