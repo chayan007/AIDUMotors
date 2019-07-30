@@ -38,7 +38,7 @@
                             <li>
                                 <div class="impl_foo_icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                                 <div class="impl_foo_text">
-                                    <a href="#">info@aidumotor.com</a>
+                                    <a href="#">info@aidumotor.com</a><br>
                                     <a href="#">relations@aidumotor.com</a>
                                 </div>
                             </li>
