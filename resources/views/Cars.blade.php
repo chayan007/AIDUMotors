@@ -54,7 +54,7 @@
                                                     <span class="impl_img_tag" title="compare"><a href="/car/{{ $car->id }}"><i class="fa fa-exchange" aria-hidden="true"></i></a></span>
                                                 </div>
                                                 <div class="impl_fea_car_data">
-                                                    <h2><a href="/car/{{ $car->slug }}">{{ $car->model }}</a></h2>
+                                                    <h2><a href="/cars/{{ $car->slug }}">{{ $car->model }}</a></h2>
                                                     <ul>
                                                         <li><span class="impl_fea_title">Mileage</span>
                                                             <span class="impl_fea_name">{{ $car->mileage }}</span></li>

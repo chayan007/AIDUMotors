@@ -54,4 +54,10 @@ class PublicController extends Controller
         return view('Accessories', ['accessories' => $accessories]);
     }
 
+    public function showTheCar($slug)
+    {
+        $car = Car::where('slug', $slug)->firstOrFail();
+        return view('OneCar', ['car' => $car]);
+    }
+
 }

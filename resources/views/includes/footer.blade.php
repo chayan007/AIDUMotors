@@ -15,7 +15,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="impl_foo_box footer_abt_text">
                         <a href="#"><img src="images/logo.png" alt=""></a>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable by injected humour.</p>
+                        <p>AIDU Motors is leading car dealer in Mizoram. We are bringing world class service to our clients across entire Mizoram. We are glad to have the trust of thousands of customers on our brand name.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -25,21 +25,21 @@
                             <li>
                                 <div class="impl_foo_icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
                                 <div class="impl_foo_text">
-                                    <p>+1-202-555-0137</p>
-                                    <p>+1-202-555-0137</p>
+                                    <p>+91-84158 81926</p>
+                                    {{--<p>+1-202-555-0137</p>--}}
                                 </div>
                             </li>
                             <li>
                                 <div class="impl_foo_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                                 <div class="impl_foo_text">
-                                    <p>514 S. Magnolia St. <br> Orlando , US</p>
+                                    <p>JH. Lianchungnunga Building, World Bank Road, Mualpui, Salem Veng, <br> Aizawl, Mizoram 796005</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="impl_foo_icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                                 <div class="impl_foo_text">
-                                    <a href="#">dummymail@aidumotors.com</a>
-                                    <a href="#">yourmail@aidumotors.com</a>
+                                    <a href="#">info@aidumotor.com</a>
+                                    <a href="#">relations@aidumotor.com</a>
                                 </div>
                             </li>
                         </ul>
@@ -48,7 +48,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="impl_foo_box">
                         <h1 class="impl_foo_title">Subscribe </h1>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                        <p>You can subscribe our newsfeed and get alerts when something good happens to our showroom.</p>
                         <div class="impl_footer_subs">
                             <input type="text" class="form-control" placeholder="Enter Your Email">
                             <button class="foo_subs_btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>

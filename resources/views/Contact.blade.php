@@ -27,10 +27,11 @@
                         <div class="col-lg-12 col-md-12">
                             <h1>get in touch</h1>
                         </div>
-                        <form>
+                        <form action="/contact" method="POST" enctype="multipart/form-data">
+                            @csrf
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
-                                    <input type="text" name="first_name" class="form-control require" placeholder="YOUR NAME">
+                                    <input type="text" name="name" class="form-control require" placeholder="YOUR NAME">
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12">
@@ -51,7 +52,7 @@
                             <div class="response"></div>
                             <div class="col-lg-12 col-md-12">
                                 <input type="hidden" name="form_type" value="contact">
-                                <button type="button" class="impl_btn submitForm">post comment</button>
+                                <button type="button" class="impl_btn submitForm">Send Query</button>
                             </div>
                         </form>
                     </div>
@@ -64,8 +65,7 @@
                                     <div class="impl_con_data">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <h2>phone</h2>
-                                        <p>+1-202-555-0137</p>
-                                        <p>+1-202-555-0189</p>
+                                        <p>+91-84158 81926</p>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
                                     <div class="impl_con_data">
                                         <i class="fa fa-home" aria-hidden="true"></i>
                                         <h2>address</h2>
-                                        <p>514 S. Magnolia St.<br>Orlando , US</p>
+                                        <p>JH. Lianchungnunga Building, World Bank Road,<br> Aizawl, Mizoram 796005</p>
                                     </div>
                                 </div>
                             </div>
@@ -83,8 +83,8 @@
                                     <div class="impl_con_data">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                         <h2>E - mail</h2>
-                                        <p><a href="#">dummymail@mail.com</a></p>
-                                        <p><a href="#">yourmail@mail.com</a></p>
+                                        <p><a href="#">info@aidumotor.com</a></p>
+                                        <p><a href="#">relations@aidumotor.com</a></p>
                                     </div>
                                 </div>
                             </div>
