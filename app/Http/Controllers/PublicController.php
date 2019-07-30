@@ -60,4 +60,11 @@ class PublicController extends Controller
         return view('OneCar', ['car' => $car]);
     }
 
+    public function home()
+    {
+        $featured_cars = Car::where('featured', 1)->take(6)->get();
+        return view('welcome', ['cars' => $featured_cars]);
+
+    }
+
 }
