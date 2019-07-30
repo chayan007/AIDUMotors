@@ -21,6 +21,7 @@ Route::get('/cars', 'PublicController@showCars');
 Route::get('/cars/{slug}', 'PublicController@showTheCar');
 Route::get('/accessories', 'PublicController@showAccessories');
 Route::get('/services', 'PublicController@services');
+Route::get('/reviews', 'PublicController@reviews');
 Route::get('/team', 'PublicController@team');
 Route::post('/contact', 'ContactController@contact');
 Route::get('/contact', 'PublicController@contact');

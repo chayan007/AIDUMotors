@@ -6,6 +6,7 @@ use App\Accessory;
 use App\Car;
 use App\Images;
 use App\Media;
+use App\Review;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller
@@ -64,7 +65,12 @@ class PublicController extends Controller
     {
         $featured_cars = Car::where('featured', 1)->take(6)->get();
         return view('welcome', ['cars' => $featured_cars]);
+    }
 
+    public function reviews()
+    {
+        $reviews = Review::paginate(10);
+        return view('Reviews', ['reviews' => $reviews]);
     }
 
 }
